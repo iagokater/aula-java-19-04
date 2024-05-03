@@ -1,8 +1,8 @@
 package application.repository;
 
-import org.spring.framework.data.repository.CrudRepository;
+import org.springframework.data.repository.CrudRepository;
 
-import application.model.livro;
+import application.model.Livro;
 
 public interface LivroRepository extends CrudRepository<Livro, Long> {
     
